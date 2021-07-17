@@ -1,0 +1,39 @@
+header{
+  background: purple; 
+  margin:0;
+}
+#container{
+  display:flex;
+  height:50px;
+  justify-content:flex-start;
+  align-items:center;
+  margin:0;
+  padding:0;
+}
+.gomb{
+  list-style-type:none;
+  width:150px;
+  height:30px;
+  background:cyan;
+  margin-right:5px;
+}
+.gomb.kozep{
+  padding:0 30px;
+}
+.sarga{
+  display:flex;
+  background:yellow;
+  justify-content:flex-end;
+}
+main{
+  height:500px;
+  display:flex;
+}
+.sarga{
+  background:yellow;
+  flex-grow:4;
+}
+.zold{
+  background:lime;
+  flex-grow:1;
+}

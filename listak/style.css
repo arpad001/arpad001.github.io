@@ -1,0 +1,27 @@
+div{
+  width: 570px;
+  
+}
+h1 {
+  color: tomato;
+  
+}
+h2{
+  color: SlateBlue;
+}
+p{
+  font-size: 20px;
+}
+ul li{
+  list-style-type: square;
+  font-size: 20px;
+}
+ol li{
+  list-style-type:upper-roman;
+  text-decoration: underline;
+  font-size: 20px;
+  color: Violet;
+}
+#mas{
+  color: black;
+}

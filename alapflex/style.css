@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+/* flex-direction: row-reverse;*/
+ /* justify-content:space-around;*/
+ justify-content:flex-end;
+  width:300px;
+  flex-wrap:wrap;
+}
+/*.container {
+  display: flex;
+  flex-direction: column-reverse;
+}*/
+.item{
+  width:150px;
+  height:150px;
+}
+.item.green{
+  background: #51d400;
+}
+.item.yellow{
+  background: #ffd62a;
+}
+.item.purple{
+  background: #b02afe;
+}

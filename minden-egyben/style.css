@@ -1,0 +1,46 @@
+#fo{
+  display:flex;
+  width:900px;
+  margin-left:auto;
+  margin-right:auto;
+  flex-direction:column;
+}
+#kozep{
+  display:flex;
+  height:500px;
+  flex-direction:row;
+  justify-content:space-around;
+ }
+#bal{
+  background:orange;
+  flex-grow:1;
+  margin-right:20px;
+}
+#tartalom{
+  display:flex;
+  justify-content:flex-end;
+  align-items:flex-end;
+  padding:20px 20px;
+  background:red;
+  flex-grow:2;
+  margin-right:20px;
+}
+#doboz{
+  background:black;
+  width:100px;
+  height:100px;
+}
+#jobb{
+  background:purple;
+  flex-grow:1;
+}
+header{
+  background:aqua;
+  width:900px;
+  height:100px;
+}
+footer{
+  background:blue;
+  width:900px;
+  height:100px;
+}

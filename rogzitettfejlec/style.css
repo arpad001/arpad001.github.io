@@ -1,0 +1,53 @@
+header{
+  width:100%;
+  position:fixed;
+  top:0;
+  background: purple; 
+  margin:0;
+}
+#container{
+  display:flex;
+  height:70px;
+  justify-content:flex-start;
+  align-items:center;
+  margin:0;
+  padding-left:100px;
+}
+.gomb{
+    list-style-type:none;
+  width:150px;
+  height:30px;
+  background:cyan;
+ margin-right:5px;
+}
+.gomb.kozep{
+  padding:0 30px;
+}
+.sarga{
+  display:flex;
+  background:yellow;
+  justify-content:flex-end;
+}
+main{
+  margin-top:90px;
+  margin-left:100px;
+  margin-right:100px;
+  height:500px;
+  display:flex;
+  flex-direction:row-reverse;
+}
+.sarga{
+  background:yellow;
+  flex-grow:4;
+}
+.zold{
+  background:lime;
+  flex-grow:1;
+}
+footer{
+  background:lightgrey;
+  height:80px;
+  margin-top:20px;
+  margin-left:100px;
+  margin-right:100px;
+}

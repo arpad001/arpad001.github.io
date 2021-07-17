@@ -1,0 +1,27 @@
+main{
+  border: 10px solid #4285f4;
+  width: 400px;
+  font-size: 40px;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+.north{
+  background: #E67676;
+  
+}
+
+.south{
+  background: #A9E6E6;
+  
+}
+.kozep{
+  padding: 50px;
+  margin:0;
+}
+
+
+
+Resources
