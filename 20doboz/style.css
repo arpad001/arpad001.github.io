@@ -1,0 +1,26 @@
+#fo{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+   
+}
+.sor{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border:2px solid blue;
+    padding: 20px;
+    margin:20px;
+}  
+.sormas{
+    background-color: orangered;
+}
+.oszlop{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.mas{
+    background-color:purple;
+
+}
